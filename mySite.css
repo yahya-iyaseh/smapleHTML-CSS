@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&family=Gluten:wght@300&family=Life+Savers&display=swap');
+html {
+  margin: 0 !important;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  color: #000;
+  font-family: 'Gluten', cursive;
+  background-color: #fdf6f0;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 50px;
+  padding: 1rem;
+  text-shadow: 2px 2px 20px #000, -2px -2px 20px #000, 2px -2px 20px #000,
+    -2px 2px 20px #000;
+  font-size: 4rem;
+  font-family: 'Life Savers', cursive;
+  color: #10a7a7;
+  font-weight: 900 !important;
+}
+.h1-one{
+  text-shadow: 0 0 40px #fff, 0 0 40px #fff, 0 0 40px #fff, 0 0 40px #fff;
+  font-size: 3rem;
+  font-weight: 900
+}
+p {
+  padding: 0.5rem;
+  text-shadow: 0 0 40px #fff, 0 0 40px #fff, 0 0 40px #fff, 0 0 40px #fff;
+  font-size: 2rem;
+  color: #119499;
+  font-weight: 900;
+  line-height: 2;
+}
+hr {
+  margin: 0;
+  width: 6rem;
+  margin: auto;
+  color: #fdf6f0;
+  border: none;
+  border-bottom: dotted #999 10px;
+}
+button {
+  margin-top: 3rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  border: none;
+  background-image: linear-gradient(to bottom, #00f1e9, #119499, #10a7a7);
+  color: white;
+  /* box-shadow: 0 0 5px #b1fffa; */
+  padding: 10px;
+}
+button:hover{
+  cursor: pointer;
+}
+.center {
+  text-align: center;
+}
+.top-container {
+  background-color: #b1fffd;
+  margin: 0;
+  background-image: url(../img/mountain2.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100%;
+  height: auto;
+  max-height: 1080px;
+}
+
+.skills {
+  padding: 50px 0 50px 0;
+  text-align: center;
+  margin-left: 0;
+  background-color: #d9faca44;
+  text-shadow: 0 0 10px black !important;
+}
+
+.skills .img {
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 0 10px black !important;
+}
+.skills div {
+  margin-top: 20px;
+}
+.skills img {
+  width: 8rem;
+}
+.skills p {
+  font-size: 1.5rem;
+}
+.middle-div {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  align-items: left;
+}
+.middle-div h1 {
+  font-size: 3rem;
+  text-shadow: none !important;
+  color: #119499;
+  font-style: bold;
+}
+.middle-div p {
+  font-size: 1rem;
+}
+.touch {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.p {
+  text-decoration: none;
+  color: black;
+  font-family: serif;
+  margin: 0;
+  font-size: 1.2rem !important;
+}
+.p-footer{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #fff;
+  text-shadow: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+.bottom-container {
+  padding-top: 2rem;
+  background-color: #4fc5b1a9;
+  position: absolute;
+  color: rgb(94, 94, 94);
+  width: 100%;
+  text-align: center;
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px 20px 20px 20px;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+#cloud1 {
+  width: 30vw;
+  animation: left-to-right 36s ease infinite;
+  position: relative;
+}
+
+#cloud2 {
+  width: 50vw;
+  position: relative;
+  top: -30vw;
+  animation: left-to-right 36s ease infinite;
+}
+#mountaion {
+  margin: 0;
+}
+.skill {
+  border-radius: 50px;
+  width: 25%;
+  float: left;
+  margin-right: 3rem;
+  min-width: 140px;
+  margin-bottom: 1rem;
+}
+#skill2 {
+  width: 25%;
+  float: right;
+  margin-left: 3rem;
+  min-width: 140px;
+  margin-bottom: 1rem;
+}
+@keyframes left-to-right {
+  0%,
+  100% {
+    left: 0;
+  }
+  50% {
+    left: 50%;
+  }
+}
